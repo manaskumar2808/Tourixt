@@ -1,0 +1,10 @@
+# This is a generated file; do not edit or check into version control.
+path_provider_linux=/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/
+path_provider_windows=/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+1/
+shared_preferences=/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.12/
+shared_preferences_linux=/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_linux-0.0.2+2/
+shared_preferences_macos=/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_macos-0.0.1+10/
+shared_preferences_web=/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_web-0.1.2+7/
+shared_preferences_windows=/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_windows-0.0.1+1/
+video_player=/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-0.11.0/
+video_player_web=/Applications/flutter/.pub-cache/hosted/pub.dartlang.org/video_player_web-0.1.4/

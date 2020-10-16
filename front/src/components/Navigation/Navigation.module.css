@@ -1,0 +1,63 @@
+.Navigation{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 300;
+    background-color: white;
+    display: inline-flex;
+    width: 100%;
+    border-bottom: 0.5px solid #ccc;
+    /* box-shadow: 0 2px 3px #ccc; */
+    padding: 10px;
+    align-items: center;
+}
+
+.LeftNav{
+    width: 20%;
+}
+
+.MidNav{
+    width: 40%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.NavIcons{
+    width: 250px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.RightNav{
+    width: 40%;
+}
+
+.NavIcon{
+    color: rgb(148, 144, 144);
+}
+
+.NavIcon:hover{
+    color: rgb(148, 144, 144);
+}
+
+.Active{
+    color: black;
+}
+
+.Active:hover{
+    color: black;
+}
+
+.Brand{
+    align-items: center;
+    font-family: brandFont;
+    font-size: 24px;
+}
+
+
+@font-face {
+    font-family: brandFont;
+    src: url(../../assets/fonts/sincery-bartlow/Sincery\ Bartlow.otf);
+}
+
+

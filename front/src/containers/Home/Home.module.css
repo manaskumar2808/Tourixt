@@ -1,0 +1,40 @@
+.Home{
+    background-color: #fafafa;
+    display: inline-flex;
+    width: 100%;
+}
+
+.LeftSection{
+    width: 20%;
+}
+
+.ContentSection{
+    width: 40%;
+}
+
+.RightSection{
+    width: 40%;
+}
+
+
+.StoryBar{
+    display: inline-flex;
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px 10px;
+}
+
+.StoryBarItem{
+    margin: 0px 0px;
+    width: 80px;
+    text-align: center;
+}
+
+.StoryBarItemUserName{
+    font-size: 12px;
+    object-fit: contain;
+}

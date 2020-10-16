@@ -1,0 +1,75 @@
+.PlaceDetail{
+    width: 100%;
+}
+
+.BackButton{
+    position: fixed;
+    top: 80px;
+    left: 20px;
+}
+
+.PlaceDetailContainer{
+    display: inline-flex;
+    margin: 20px auto;
+    width: 850px;
+    height: 600px;
+    background-color: white;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+.PlaceImageContainer{
+    width: 55%;
+    height: 100%;
+    background-color: linear-gradient(45deg,#6b6a6a,#cfcaca);
+    border-right: 0.5px solid #ccc;
+}
+
+.PlaceImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.PlaceInfoContainer{
+    width: 45%;
+    height: 100%;
+}
+
+.PlaceInfoTop{
+    display: inline-flex;
+    height: 14%;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 0.5px solid #ccc;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PlaceName{
+    font-size: 24px;
+    margin: 0px 0px;
+}
+
+.PlaceLocation{
+    font-size: 16px;
+    margin: 0px 5px;
+    color: #6b6a6a;
+}
+
+.PlaceDescription{
+    height: 66%;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.PlaceStats{
+    height: 20%;
+    width: 100%;
+    border-top: 0.5px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}

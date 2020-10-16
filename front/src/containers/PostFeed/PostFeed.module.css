@@ -1,0 +1,55 @@
+.PostFeed{
+    width: 100%;
+    height: 100%;
+}
+
+.PostFeedContainer{
+    display: inline-flex;
+    margin: 20px auto;
+    width: 850px;
+    height: 550px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.PostButton{
+    color: rgb(0, 162, 255);
+}
+
+.PostImagePreviewContainer{
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: 55%;
+    border-right: 0.5px solid #ccc;
+    background: linear-gradient(45deg,#6b6a6a,#cfcaca);
+}
+
+.PostImagePreview{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.PostVideoPreview{    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.PostFormContainer{
+    width: 45%;
+    height: 100%;
+    padding: 20px;
+}
+
+.UploadSection{
+    height: 80px;
+    text-align: start;
+    color: blue;
+}
+
+.FileInput{
+    display: none;
+}

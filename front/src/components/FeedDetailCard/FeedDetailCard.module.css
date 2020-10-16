@@ -1,0 +1,155 @@
+.FeedDetailCard{
+    margin: 20px auto;
+    background-color: white;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    width: 850px;
+    height: 600px;
+    display: inline-flex;
+}
+
+.FeedImageSection{
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(45deg,#6e6b6b,#cfcaca);
+}
+
+.FeedInfoSection{
+    width: 40%;
+    height: 100%;
+}
+
+.FeedImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 0.5px solid #ccc;
+}
+
+.FeedVideo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 0.5px solid #ccc;
+}
+
+.FeedInfoTop{
+    display: inline-flex;
+    width: 100%;
+    height: 10%;
+    border-bottom: 0.5px solid #ccc;
+    align-items: center;
+}
+
+.ProfileImageContainer{
+    width: 20%;
+}
+
+.UserNameContainer{
+    width: 30%;
+    text-align: start;
+}
+
+.FollowAppeal{
+    width: 30%;
+    text-align: end;
+}
+
+.FeedOptions{
+    width: 20%;
+}
+
+.FeedInfoCommentArea{
+    padding: 10px 20px 0px;
+    height: 65%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.FeedInfoReviewSection{
+    height: 25%;
+    width: 100%;
+    border-top: 0.5px solid #ccc;
+    justify-content: space-between;
+}
+
+.FeedInfoDetails{
+    height: 30px;
+}
+
+.FeedInfoReview{
+    display: inline-flex;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.FeedInfoReviewIcons{
+    display: inline-flex;
+    width: 35%;
+}
+
+.FeedInfoReviewIcon{
+    width: 100%;
+}
+
+.FeedInfoReviewGap{
+    width: 55%;
+}
+
+.FeedInfoSaveIcons{
+    width: 10%;
+}
+
+.CommentContainer{
+    display: inline-flex;
+    width: 100%;
+    height: 70px;
+    border-radius: 0px 0px 5px;
+    border-top: 0.1px solid #eee;
+}
+
+.CommentInput{
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.CommentInput:focus{
+    border: none;
+    outline: none;
+}
+
+.CommentPost{
+    cursor: pointer;
+    width: 100px;
+    align-items: center;
+    align-self: center;
+    color: #08a1d4;
+}
+
+.CommentPostButton{
+    border: none;
+    color: #08a1d4;
+}
+
+
+.FeedCommentItem{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+
+.FeedCommentorProfileImage{
+    width: 20%;
+}
+
+.FeedCommentContent{
+    width: 70%;
+    text-align: start;
+}
+
+.FeedCommentReview{
+    width: 10%;
+}

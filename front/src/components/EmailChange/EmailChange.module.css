@@ -1,0 +1,23 @@
+.EmailChange{
+    width: 100%;
+}
+
+.FormField{
+    display: inline-flex;
+    width: 100%;
+}
+
+.LabelPart{
+    width: 35%;
+    align-content: center;
+    /* text-align: end; */
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.FieldPart{
+    width: 65%;
+    align-self: center;
+    justify-content: start;
+    text-align: start;
+}

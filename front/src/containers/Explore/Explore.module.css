@@ -1,0 +1,95 @@
+.Explore {
+    margin: 0px auto; 
+    width: 850px;  
+}
+
+.UserList {
+    width: 100%;
+    overflow-x: scroll;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.FeedGrid{
+    width: 100%;
+    display: 'flex';
+    flex-wrap: 'wrap';
+    justify-content: 'space-between';
+    overflow: 'hidden';
+    border-top: 0.5px solid #ccc;
+}
+
+.FeedGridImage{
+    position: relative;
+    height: 270px;
+    width: 260px;
+    object-fit: cover;
+    background: linear-gradient(45deg,#6e6b6b,#cfcaca);
+    margin: 30px 13px;
+    border: 0.5px solid #ccc;
+}
+
+.FeedGridImage:hover{
+    filter: brightness(50%);
+}
+
+
+.FeedGridVideo{
+    height: 260px;
+    width: 260px;
+    object-fit: cover;
+    background: linear-gradient(45deg,#6e6b6b,#cfcaca);
+    margin: 20px 0px;
+    border: 0.5px solid #ccc;    
+}
+
+.FeedContainer{
+    height: 260px;
+    width: 260px;
+    padding: 0px;
+}
+
+
+.Icon{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    color: white;
+}
+
+.Backdrop{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 300;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    padding: 70px;
+}
+
+.ContentClass{
+    background-color: #6e6b6b;
+}
+
+.FeedModal{
+    height: fit-content;
+    width: fit-content;
+    display: none;
+    opacity: 0;
+    z-index: 500;
+    margin: auto;
+}
+
+.Show{
+    opacity: 1;
+    display: block;
+}
+

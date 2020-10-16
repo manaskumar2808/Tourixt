@@ -1,0 +1,11 @@
+.Posts{
+    margin: 0px auto;
+    width: 100%;
+}
+
+@media(max-width: 500px){
+    .Posts{
+        width: 100%;
+    }
+}
+

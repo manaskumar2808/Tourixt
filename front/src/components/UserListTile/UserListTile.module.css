@@ -1,0 +1,18 @@
+.UserListTile{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.UserListTileProfileImage{
+    width: 15%;
+}
+
+.UserListTileUserName{
+    text-align: start;
+    width: 65%;
+}
+
+.UserListTileAction{
+    width: 20%;
+}

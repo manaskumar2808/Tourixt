@@ -1,0 +1,15 @@
+.Reply{
+    display: inline-flex;
+    width: 65%;
+    text-align: left;
+    margin: 10px;
+    align-items: center;
+}
+
+.ReplyProfileImage{
+    width: 25%;
+}
+
+.ReplyUserName{
+    width: 75%;
+}

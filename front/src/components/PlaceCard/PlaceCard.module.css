@@ -1,0 +1,49 @@
+.PlaceCard{
+    display: inline-block;
+    margin: 0px 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    height: 270px;
+    width: 195px;
+}
+
+.PlaceCardImageContainer{
+    height: 60%;
+    width: 100%;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #636361,#a3a3a0);
+}
+
+.PlaceCardImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.PlaceCardInfoContainer{
+    display: inline-flex;
+    padding: 10px;
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+}
+
+.PlaceCardInfo{
+    text-align: start;
+}
+
+.PlaceCardInfoName{
+    font-size: 20px;
+}
+
+.PlaceCardInfoLocation{
+    font-size: 13px;
+}
+
+.PlaceCardAction{
+    padding: 10px;
+    width: 100%;
+    height: 5%;
+}

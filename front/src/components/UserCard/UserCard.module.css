@@ -1,0 +1,16 @@
+.UserCard{
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 250px;
+    width: 200px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    flex-shrink: 0;
+}

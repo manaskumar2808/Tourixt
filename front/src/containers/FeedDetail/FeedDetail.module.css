@@ -1,0 +1,9 @@
+.FeedDetail{
+    width: 100%;
+}
+
+.BackButton{
+    position: fixed;
+    top: 80px;
+    left: 20px;
+}

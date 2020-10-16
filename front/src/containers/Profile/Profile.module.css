@@ -1,0 +1,134 @@
+.ProfileContainer{
+    width: 100%;
+    display: inline-flex;
+}
+
+.ProfileLeft{
+    width: 20%;
+}
+
+.Profile {
+    margin: 20px auto;
+    width: 60%;
+    height: fit-content;
+    justify-content: center;
+    /* background-color: white;
+    border: 0.5px solid #ccc;
+    border-radius: 5px; */
+}
+
+.ProfileContent{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.ProfileRight{
+    width: 20%;
+}
+
+@media(max-width: 800px){
+    .ProfileContent{
+        width: 95%;
+    }
+}
+ 
+.ProfileImageContainer{
+    display: inline-flex;
+    border-radius: 100%;
+    border: 0.5px solid grey;
+    height: 190px;
+    width: 190px;
+    margin: 20px;
+    background: linear-gradient(45deg,#6e6b6b,#cfcaca);
+}
+
+.ProfileImage{
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ProfileUserName{
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    padding: auto;
+}
+
+.ProfileInfo{
+    display: inline-flex;
+    width: 60%;
+    margin: auto;
+    border: 0.5px solid #ccc;
+    border-radius: 35px;
+}
+
+.ProfileInfoItem{
+    cursor: pointer;
+    width: 33.33%;
+}
+
+.ProfileShowCase{
+    margin-top: 50px;
+    display: inline-flex;
+    width: 96%;
+    border-top: 0.25px solid #ccc;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.ProfileShowCaseItem{
+    height: 100%;
+    padding: 20px;
+    width: 30%;
+    font-size: large;
+}
+
+.ActiveShowCase{
+    color: #0f9bf2;
+    border-top: 2px solid #0f9bf2;
+}
+
+.ProfileShowCaseView{
+    height: fit-content;
+    width: 100%;
+}
+
+.ProfileShowCaseEmpty{
+    margin: 100px auto;
+    font-size: larger;
+}
+
+.FeedGrid{
+    width: 100%;
+    margin: auto;
+    display: 'flex';
+    flex-wrap: 'wrap';
+    justify-content: 'space-around';
+    overflow: 'hidden';
+}
+
+.FeedGridImage{
+    height: 260px;
+    width: 260px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    background: linear-gradient(45deg,#6e6b6b,#cfcaca);
+    border: 0.5px solid #ccc;
+}
+
+.FeedContainer{
+    position: relative;
+}
+
+.Icon{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+}
+
+

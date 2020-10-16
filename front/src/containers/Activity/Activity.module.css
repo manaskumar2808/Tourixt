@@ -1,0 +1,45 @@
+.Activity{
+    display: inline-flex;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.LeftSide{
+    width: 10%;
+}
+
+.MainContent{
+    width: 60%;
+}
+
+.RightSide{
+    width: 30%;
+}
+
+.SightList{
+    width: 100%;
+    height: 250px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+
+.PlaceList{
+    width: 100%;
+    height: 320px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    text-align: start;
+}
+
+.PlaceTopic{
+    color: rgb(104, 101, 101);
+    text-align: left;
+    padding: 20px;
+}
+
+.AddPlace{
+    position: fixed;
+    top: 600px;
+    right: 245px;
+}

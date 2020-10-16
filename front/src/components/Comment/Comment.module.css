@@ -1,0 +1,57 @@
+.FeedCommentItem{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+
+.FeedCommentorProfileImage{
+    width: 20%;
+}
+
+.FeedCommentContent{
+    width: 70%;
+    text-align: start;
+}
+
+.FeedCommentReview{
+    width: 10%;
+}
+
+.CommentReview{
+    width: 100%;
+    display: inline-flex;
+    padding: 5px;
+}
+
+.CommentReviewItem{
+    cursor: pointer;
+    width: 16%;
+    color: rgb(97, 93, 93);
+    font-size: 11px;
+}
+
+.ViewRepliesButton{
+    cursor: pointer;
+    color: rgb(97, 93, 93);
+    font-size: 11px;
+    width: 100%;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.Reply{
+    display: inline-flex;
+    width: 65%;
+    text-align: left;
+    margin: 10px;
+    align-items: center;
+}
+
+.ReplyProfileImage{
+    width: 25%;
+}
+
+.ReplyUserName{
+    width: 75%;
+}
+

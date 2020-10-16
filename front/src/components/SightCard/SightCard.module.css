@@ -1,0 +1,47 @@
+.SightCard{
+    z-index: 200;
+    display: inline-flex;
+    margin: 0px 10px;
+    position: relative;
+    border-radius: 10px;
+    height: 200px;
+    width: 153px;
+}
+
+.SightImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 0.5px solid #ccc;
+    border-radius: 10px;
+}
+
+.Shade{
+    top: 0;
+    left: 0;
+    z-index: 300px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5));
+}
+
+.SightInfo{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.SightInfoName{
+    font-size: 20px;
+}
+
+.SightInfoLocation{
+    font-size: 13px;
+}

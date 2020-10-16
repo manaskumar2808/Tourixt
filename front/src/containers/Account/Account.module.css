@@ -1,0 +1,33 @@
+.Account{
+    display: inline-flex;
+    margin: 40px auto;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+.AccountTabs{
+    width: 30%;
+    height: 100%;
+    padding: 0px 0px;
+    border-right: 0.5px solid #ccc;
+}
+
+.AccountView{
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+}
+
+.AccountTab{
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.SelectedTab{
+    border-right: 3px solid black;
+}

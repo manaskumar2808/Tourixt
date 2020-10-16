@@ -1,0 +1,37 @@
+.UserDisplay{
+    position: fixed;
+    right: 150px;
+    width: 350px;
+    margin: 20px auto;
+    padding: 10px 0px 0px 0px;
+    background-color: white;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+.UserDetails{
+    justify-content: start;
+}
+
+.SocialDetails{
+    margin: 5px auto 20px;
+    align-items: center;
+    display: inline-flex;
+    width: 100%;
+}
+
+.SocialItem{
+    width: 33.3333333%;
+}
+
+.HighlightGrid{
+    width: 100%;
+}
+
+
+.HighlightGridImage{
+    width: 116.666666667px;
+    height: 116.666666667px;
+    object-fit: cover;
+    background: linear-gradient(45deg,#6e6b6b,#cfcaca);
+}

@@ -1,0 +1,80 @@
+.ProfileImageContainer{
+    display: inline-flex;
+    border-radius: 100%;
+    border: 0.5px solid grey;
+    margin: 10px;
+    background: linear-gradient(45deg,#6e6b6b,#cfcaca);
+}
+
+.Cover{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.XXXSmall{
+    height: 20px;
+    width: 20px;
+}
+
+.XXSmall{
+    height: 30px;
+    width: 30px;
+}
+
+.XSmall{
+    height: 40px;
+    width: 40px;
+}
+
+.Small{
+    height: 90px;
+    width: 90px;
+}
+
+.Medium{
+    height: 150px;
+    width: 150px;
+}
+
+.Large{
+    height: 190px;
+    width: 190px;
+}
+
+.Story{
+    height: 60px;
+    width: 60px;
+}
+
+.ProfileImage{
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.ProfileImageContainer.Border{
+    padding: 2px;
+    border: none;
+    background: linear-gradient(45deg,#05dbf7,#207df7);
+}
+
+.ProfileImage.Padded{
+    border: 2px solid white;
+}
+
+.ProfileImageContainer.Border.BorderType1{
+    background: linear-gradient(45deg,#20f7f0,#8d05fc);
+}
+
+.ProfileImageContainer.Border.BorderType2{
+    background: linear-gradient(45deg,#8420f7,#f71ec5);
+}
+
+.ProfileImageContainer.Border.BorderType3{
+    background: linear-gradient(45deg,#f71ee5,#f2181f);
+}
+
